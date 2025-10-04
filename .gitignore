@@ -1,16 +1,69 @@
-# Sensitive files
-.env
-config.json
-credentials.ini
-*.log
-TEMP/
-*.sqlite
-*.db
+# Individual files
 
-# Large files and directories
-build/
-dist/
-node_modules/
-vendor/
-*.mp4
+# Local Only Notes
+INTERNAL_NOTES.txt
+# Local Only API Keys
+config.py
+
+# Directories
+TEMP/
+images/backgrounds/
+# images/logos/
+GLI_program/images/
+GLI_program/Pages/
+*.xlsx
+data/db/box_scores/
+data/deprec/
+data/vault/
+data_viz/
+
+# Compiled source files
+*.o
+*.obj
+*.exe
+*.dll
+# *.db
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
 *.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Python files
+*.pyc
+*.pyo
+*.egg-info/
+
+# Node files
+node_modules/
+
+
+
