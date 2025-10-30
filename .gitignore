@@ -17,6 +17,9 @@ data/deprec/
 data/vault/
 data_viz/
 
+# Data files
+*.db
+
 # Compiled source files
 *.o
 *.obj
